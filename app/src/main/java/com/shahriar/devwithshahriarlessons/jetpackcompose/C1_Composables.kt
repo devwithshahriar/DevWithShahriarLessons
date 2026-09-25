@@ -138,7 +138,7 @@ fun OutlinedTextFieldExample() {
             focusedTrailingIconColor = Color.Black,
             unfocusedTrailingIconColor = Color.Black,
             unfocusedLabelColor = Color.Gray,
-            focusedLabelColor = Color.Black
+            focusedLabelColor = Color.Black,
 
 
 
