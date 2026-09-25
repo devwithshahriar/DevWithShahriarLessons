@@ -126,6 +126,8 @@ fun OutlinedTextFieldExample() {
 
         },
 
+        // This is a comment.
+
         singleLine = true,
         shape = RoundedCornerShape(size = 20.dp),
         colors = TextFieldDefaults.colors(
@@ -138,7 +140,7 @@ fun OutlinedTextFieldExample() {
             focusedTrailingIconColor = Color.Black,
             unfocusedTrailingIconColor = Color.Black,
             unfocusedLabelColor = Color.Gray,
-            focusedLabelColor = Color.Black,
+            focusedLabelColor = Color.Black
 
 
 
