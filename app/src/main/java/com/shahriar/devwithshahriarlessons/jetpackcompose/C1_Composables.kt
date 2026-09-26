@@ -125,8 +125,7 @@ fun OutlinedTextFieldExample() {
 
 
         },
-
-        // This is a comment.
+        
 
         singleLine = true,
         shape = RoundedCornerShape(size = 20.dp),

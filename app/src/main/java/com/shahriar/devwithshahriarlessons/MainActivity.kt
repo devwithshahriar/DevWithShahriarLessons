@@ -11,7 +11,11 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.shahriar.devwithshahriarlessons.jetpackcompose.BoxExample
+import com.shahriar.devwithshahriarlessons.jetpackcompose.ColumnExample
+import com.shahriar.devwithshahriarlessons.jetpackcompose.ColumnExample2
 import com.shahriar.devwithshahriarlessons.jetpackcompose.OutlinedTextFieldExample
+import com.shahriar.devwithshahriarlessons.jetpackcompose.RowExample
 import com.shahriar.devwithshahriarlessons.ui.theme.DevWithShahriarLessonsTheme
 
 class MainActivity : ComponentActivity() {
@@ -21,7 +25,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             DevWithShahriarLessonsTheme {
 
-                OutlinedTextFieldExample()
+                BoxExample()
 
             }
         }
