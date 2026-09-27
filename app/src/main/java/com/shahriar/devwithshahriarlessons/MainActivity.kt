@@ -14,6 +14,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.shahriar.devwithshahriarlessons.jetpackcompose.BoxExample
 import com.shahriar.devwithshahriarlessons.jetpackcompose.ColumnExample
 import com.shahriar.devwithshahriarlessons.jetpackcompose.ColumnExample2
+import com.shahriar.devwithshahriarlessons.jetpackcompose.ModifiersExample
 import com.shahriar.devwithshahriarlessons.jetpackcompose.OutlinedTextFieldExample
 import com.shahriar.devwithshahriarlessons.jetpackcompose.RowExample
 import com.shahriar.devwithshahriarlessons.ui.theme.DevWithShahriarLessonsTheme
@@ -25,7 +26,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             DevWithShahriarLessonsTheme {
 
-                BoxExample()
+                ModifiersExample()
 
             }
         }
